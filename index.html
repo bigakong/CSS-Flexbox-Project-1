@@ -3,57 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS PROJECT 1</title>
+    <title>CSS Flexbox Project</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
+    <!-- NavBar Start Here -->
+     <div id="nav">
+        <div class="container">
+            <div class="logo">
+                <h1>Flexbox</h1>
+            </div>
+            <div class="nav-link">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
 
-    <!-- Nav Section Start here -->
-<div class="container">
-    <div class="logo">
-        <h1>Flexbox</h1>
-    </div>
-    <div class="nav">
-        <a href="#" class="link">Home</a>
-        <a href="#" class="link">About</a>
-        <a href="#" class="link">Contact</a>
-    </div>
-</div>
-<!-- Nav Section Ends Here -->
+     </div>
+     <!-- NavBar Ends Here -->
 
-<!-- Hero Section Start Here -->
- <div class="hero">
-    <div class="content">
-        <h1>Understanding Flexbox</h1>
-        <p>This Crash course was created by Hero World Technology, to help you learn the basics of Flexbox.
-            Flexbox is very important and useful tools in CSS
-        </p>
-    </div>
-    <div class="image">
-        <img src="images/grid.svg" alt="">
-    </div>
- </div>
-<!-- Hero Section Ends Here -->
 
-<!-- Ending Part Start Here -->
- <div class="ending">
-    <div class="box">
-        <h2><i class="fas fa-arrows-alt-v"></i> Alignment and Space</h3>
-        <p>A more efficient way to lay out, alignand distribute space among items in a container</p>
-    </div>
-     <div class="box">
+     <!-- Hero Section Start Here -->
+     <div id="hero">
+        <div class="container">
+            <div class="content">
+                <h1>Understanding Flexbox</h1>
+                <p>This Crash course was created by Hero World Technology, to help you learn the basics of Flexbox. Flexbox is very important and useful tools in CSS</p>
+            </div>
+            <div class="image">
+                <img src="images/grid.svg" alt="Hero Image">
+            </div>
+        </div>
+     </div>
+      <!-- Hero Section Ends Here -->
+    
+
+      <!-- End Part Start here -->
+       <div id="end">
+        <div class="container">
+            <div class="boxes"><h2><i class="fas fa-arrows-alt-v"></i> Alignment and Space</h3>
+        <p>A more efficient way to lay out, alignand distribute space among items in a container</p></div>
+
+            <div class="boxes">
                 <h2><i class="fas fa-arrows-alt"></i>Tricky Position</h2>
                 <p>A more efficient way to lay out, alignand distribute space among items in a container</p>
             </div>
 
-
-     <div class="box">
+            <div class="boxes">
                 <h2><i class="fas fa-mobile"> </i> Responsive Design</h2>
                 <p>A more efficient way to lay out, alignand distribute space among items in a container</p>
             </div>
-      
-</div>
-    
+        </div>
+       </div>
 </body>
 </html>
